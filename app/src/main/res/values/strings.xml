@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">EventTop</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="event_image">event_image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="events_title">الاحداث</string>
+    <string name="profile_title">الحساب</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">رمز المرور</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="tip1">اختر صورة للبروفايل</string>
+    <string name="imageview">imageview</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="female_text">انثى</string>
+    <string name="male_text">ذكر</string>
+    <string name="facebook_button">facebook_button</string>
+    <string name="google_button">google_button</string>
+
+    <string-array name="items">
+        <item>google</item>
+        <item>facebook</item>
+    </string-array>
+
+    <string name="facebook_app_id">2218253434868018</string>
+    <string name="fb_login_protocol_scheme">fb2218253434868018</string>
+    <string name="sign_in_title1">الدخول كشركة</string>
+    <string name="sign_in_title2">الدخول كمستخدم</string>
+    <string name="sign_in_title3">او قم بستجيل الدخول عن طريق</string>
+    <string name="sign_in_title4">مستخدم جديد ؟ سجل حسابك من هنا</string>
+    <string name="sign_in_title5">تسجيل كشركة</string>
+    <string name="sign_in_title6">تسجيل كمستخدم</string>
+</resources>

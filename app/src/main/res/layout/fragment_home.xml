@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context="com.develop.app.eventtop.HomeFragment">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="احداث هذا الشهر"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@color/customGrey"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/main_image"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/customGrey"
+        android:layout_below="@+id/title1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/first_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/customGrey">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>
